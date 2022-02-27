@@ -12,7 +12,7 @@ h1{
     margin: 0;
     color: white;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 15px;
     font-size: 36px;
 }
@@ -48,7 +48,7 @@ h2{
     text-align: center;
 }
 .tuner{
-    padding-left: 35%;
+    padding-left: 40%;
     color: white;
 } 
 .footer{
