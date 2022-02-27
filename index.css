@@ -13,14 +13,25 @@ h1{
     text-align: center;
     padding-top: 12%;
     font-size: 36px;
+    
+}
+/* #Make a grid display of the list items */
+.russian-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    
 }
 #linklist{
-  column-count:3; -moz-column-count:3; -webkit-column-count:3; 
+  column-count:2; -moz-column-count:2; -webkit-column-count:2; 
   column-gap:2em; -moz-column-gap:2em; -webkit-column-gap:2em;
 }
 #linklist a {
    display: block;
-   color: black;
+   color: blue;
    text-decoration: none;
    font-size: 20px;
    padding-bottom: 40px;
