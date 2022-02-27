@@ -18,6 +18,8 @@ h1{
 }
 html{
     overflow: scroll;
+    margin: 25px;
+    PADDING: 15px;
 }
 h3{
     text-align: center;
@@ -43,6 +45,8 @@ h3{
    font-size: 20px;
    padding-bottom: 40px;
    text-align: center;
+   padding: 10px;
+   margin: 10px;
 } 
 h2{
     text-align: center;
@@ -69,4 +73,16 @@ h2{
 
 .tips {
     color: lightblue
+}
+
+.submission {
+    color: white;
+    font-size: 20px;
+}
+
+.body-tag {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
 }
