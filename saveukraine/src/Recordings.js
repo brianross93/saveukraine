@@ -6,7 +6,7 @@ import { OpenInNew } from "@mui/icons-material";
 
 const Recordings = () => {
     const getRecordingDate = (unix) => {
-        return moment.unix(unix).utcOffset(2).format("MMM Do, YYYY, HH:mm A");
+        return moment.unix(unix).utcOffset(2).format("MMM Do, YYYY, hh:mm A");
     };
 
     return (
@@ -47,7 +47,7 @@ const Recordings = () => {
                                             >
                                                 <ListItemText
                                                     primary={e.title}
-                                                    secondary={`${getRecordingDate(e.time)} (local time)`}
+                                                    secondary={`${getRecordingDate(e.time)} (UKR time)`}
                                                 />
                                             </ListItem>
                                         )
