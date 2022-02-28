@@ -1,7 +1,7 @@
 {
   "name": "saveukraine-react",
   "version": "0.1.0",
-  "homepage": "sleepy-carson-91ab34.netlify.app",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.1",

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/sleepy-carson-91ab34.netlify.app/static/js/main.7d9f24a8.js",
-    "index.html": "/sleepy-carson-91ab34.netlify.app/index.html",
-    "main.7d9f24a8.js.map": "/sleepy-carson-91ab34.netlify.app/static/js/main.7d9f24a8.js.map"
+    "main.js": "./static/js/main.7d9f24a8.js",
+    "index.html": "./index.html",
+    "main.7d9f24a8.js.map": "./static/js/main.7d9f24a8.js.map"
   },
   "entrypoints": [
     "static/js/main.7d9f24a8.js"
