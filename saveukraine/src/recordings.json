@@ -1,6 +1,12 @@
 {
     "Frequency 7933": [
         {
+            "title": "New Buran Unit, Russian Communications",
+            "time": 1645993840,
+            "link": "https://archive.org/details/websdr_recording_start_2022-02-28T02_14_53Z_7933.0kHz"
+        },
+
+        {
             "title": "Buran possibly dying",
             "time": 1646000700,
             "link": "https://archive.org/details/buran-possibly-dying"
