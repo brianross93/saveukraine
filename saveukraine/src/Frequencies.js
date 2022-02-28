@@ -15,7 +15,7 @@ const Frequencies = () => {
         { freq: "6822 KHZ", active: false },
         { freq: "7816.00 KHZ", active: false },
         { freq: "7835.00 KHZ", active: false },
-        { freq: "7933 KHZ", active: true },
+        { freq: "7933 KHZ", active: false },
         { freq: "11318 KHZ LRA TU-95 STAT", active: false },
     ];
 
