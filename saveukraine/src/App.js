@@ -35,7 +35,7 @@ const App = () => {
                 </nav>
             </header>
             <main>
-                <Grid
+                {/* <Grid
                     container
                     direction="column"
                     justifyContent="center"
@@ -67,7 +67,46 @@ const App = () => {
                     >
                         <Submit />
                     </Grid>
+                </Grid> */}
+                {/* Refactoring the Grid component so both Frequency areas are affected by styling */}
+                <Grid
+                    container
+                    direction="column"
+                    justifyContent="center"
+                    alignItems="center"
+                    sx={{ width: "100%" }}
+                >
+                    <Grid
+
+                        item
+                        sx={{ mt: 10, minWidth: "80%" }}
+                    >
+                        <Tuners />
+                    </Grid>
+                    <Grid
+
+                        item
+                        sx={{ mt: 10, minWidth: "80%" }}
+                    >
+                        <Frequencies />
+                    </Grid>
+                    <Grid
+
+                        item
+                        item
+                        sx={{ mt: 10, minWidth: "80%" }}
+                    >
+                        <Recordings />
+                    </Grid>
+                    <Grid
+
+                        item
+                        sx={{ mt: 10, minWidth: "80%" }}
+                    >
+                        <Submit />
+                    </Grid>
                 </Grid>
+
             </main>
             <footer>
                 <Footer />

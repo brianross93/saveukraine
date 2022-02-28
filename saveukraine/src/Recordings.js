@@ -4,11 +4,15 @@ import recordings from "./recordings.json";
 import moment from "moment";
 import { OpenInNew } from "@mui/icons-material";
 
+
+
+
+
+
 const Recordings = () => {
     const getRecordingDate = (unix) => {
         return moment.unix(unix).utcOffset(2).format("MMM Do, YYYY, hh:mm A");
     };
-
     return (
         <section id="recordings">
             <Paper sx={{ p: 5 }}>
@@ -21,11 +25,17 @@ const Recordings = () => {
                 >
                     <Grid
                         item
-                        sx={{ mb: 2 }}
+
+                        sx={{ 
+                            mb: 2
+                         }}
+                         
+
                     >
                         <Typography variant="h4">
                             Recordings
                         </Typography>
+
                     </Grid>
                     {Object.keys(recordings).map((k, i) => {
                         return (
@@ -54,6 +64,7 @@ const Recordings = () => {
                                     })}
                                 </List>
                             </Grid>
+                            
                         );
                     })}
                 </Grid>
@@ -61,5 +72,12 @@ const Recordings = () => {
         </section>
     );
 };
+//
+// export default Recordings;
+
+// Refactoring the above so that the title, time, and link for all json items in recordings.json will display with page styling
+// Creating a react component to do this
+// Code:
+
 
 export default Recordings;
