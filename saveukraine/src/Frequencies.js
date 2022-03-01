@@ -3,7 +3,8 @@ import { Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/mate
 
 const Frequencies = () => {
     const frequencies = [
-        { freq: "4034 KHZ", active: true },
+        { freq: "3809 KHZ USB", active: true },
+        { freq: "4034 KHZ", active: false },
         { freq: "8090 KHZ", active: true },
         { freq: "8131 KHZ", active: false },
         { freq: "9741 KHZ", active: false},
