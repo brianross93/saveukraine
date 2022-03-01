@@ -83,10 +83,13 @@ const App = () => {
                         sx={{ mt: 10, minWidth: "50%" }}
                     >
                         <Tuners />
-                        <p>Select a radio tuner, and use the numbers below as frequencies.</p><p> Russian Military
+                        <p>Select a radio tuner, and use the numbers below as frequencies.</p>
+                        <p>For a detailed overview: <a href="https://web.archive.org/web/20220222023148/https://k0lwc.com/monitoring-the-airwaves-during-ukrainian-conflict/"> Monitoring The Airwaves During the Ukrainian Conflict</a></p>
+                        <p> Russian Military
                             Operations have been recorded on channels below, and posted here for archive.</p> 
                             <p>If you hear any Russian War Chatter, please record and submit it to us.</p>
                             <p>Join our Discord Server! https://discord.gg/K49eBFUC</p>
+                            
                     </Grid>
                     <Grid
 
