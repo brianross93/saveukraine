@@ -1,0 +1,40 @@
+{
+    "Submissions":[
+        {
+            "title": "Russian unit Buran-30 chatter with South 95, Vulkan, Skala",
+            "description": "Air and artillery strike near Donbas Oblast (?). Buran has injured soldiers and needs help in order to retreat. 7933 kHz USB about midnight Ukraine time.",
+            "time": 1645972966,
+            "link": "https://archive.org/details/websdr_recording_start_2022-03-01T08_23_32Z_9741.0kHz"
+        },
+        {
+            "title": "Ground Team Buran-30 Chatter with South 95, Lampazz28, Skala",
+            "description": "This was recorded on 27/02/22 on frequency 7933 USB. I believe this is to be a ground team or tank team, Alot of call signs were said in this such as buran 30, skala, lampaz28 and a few more. Also kolonika which maybe a collum of vehicles in the north or a single fuel supply truck. In this recording coordinated were also mention which i believe to be around west kyiv. They were requesting air support and kept mentioning a battery. They also mentioned talking with some other people bu buran30 could not hear them. This buran30 seem to be on this frequency a lot calling out for people. He also mentioned that he could not talk loud because of nearby recon? there is much more information in this recording but i don't know Russian so i was relying on translators. ",
+            "time": 1645972966,
+            "link": "https://archive.org/details/websdr_recording_start_2022-02-27T22_01_23Z_7933.0kHz"
+        },
+        {
+            "title": "Ukrainian Trolling over 7933 kHz",
+            "description": "Ukrainians took over the 7933 frequency around 12:20pm GMT 28/02/2022",
+            "time": 1645972966,
+            "link": "https://archive.org/details/websdr_recording_start_2022-02-28T12_21_14Z_7933.0kHz"
+        },
+        {
+            "title": "Communication with Priyom",
+            "description": "short voice communications with 'priyom' heard several times, 0144UTC, 4629 khz USB, 01 Mar '22 (UTC), ",
+            "time": 1645972966,
+            "link": "https://archive.org/details/websdr_recording_start_2022-02-28T12_21_14Z_7933.0kHz"
+        },
+        {
+            "title": "9741 Chatter",
+            "description": "Short clip of one person talking on frequency 9741",
+            "time": 1645972966,
+            "link": "https://archive.org/details/websdr_recording_start_2022-03-01T19_07_09Z_9741.0kHz"
+        },
+        {
+            "title": "Russian Airforce Chatter over 8131 kHz",
+            "description": "Russian Air Force Strategic Bomber High Frequency Bomber Net on 8131 Kilohertz USB. ",
+            "time": 1645972966,
+            "link": "https://archive.org/details/8131-usb-1837-gmt-26-feb-2022"
+        }
+    ]
+}

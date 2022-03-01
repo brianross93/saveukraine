@@ -8,6 +8,7 @@ import Frequencies from "./Frequencies";
 import Recordings from "./Recordings";
 import Submit from "./Submit";
 import Footer from "./Footer";
+import Submissions from "./Submissions";
 
 const App = () => {
     const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -102,6 +103,16 @@ const App = () => {
                         sx={{ mt: 10, minWidth: "50%" }}
                     >
                         <Recordings />
+                    </Grid>
+                    <Grid
+                    // adding a Submissions grid item to display title, description, time, and link for all json items in recordings.json
+                        item
+                        sx={{ mt: 10, minWidth: "50%"
+                        }}
+
+                        
+                    >
+                        <Submissions />
                     </Grid>
                     <Grid
 
