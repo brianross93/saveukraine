@@ -85,6 +85,7 @@ const App = () => {
                         <p>Select a radio tuner, and use the numbers below as frequencies.</p><p> Russian Military
                             Operations have been recorded on channels below, and posted here for archive.</p> 
                             <p>If you hear any Russian War Chatter, please record and submit it to us.</p>
+                            <p>Join our Discord Server! https://discord.gg/K49eBFUC</p>
                     </Grid>
                     <Grid
 
