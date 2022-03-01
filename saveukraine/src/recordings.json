@@ -1,4 +1,11 @@
 {
+    "Frequency 9741":[
+        {
+            "title": "Recordings over Freq 9741",
+            "time": 1646124215,
+            "link": "https://archive.org/details/websdr_recording_start_2022-03-01T08_23_32Z_9741.0kHz"
+        }
+    ],
     "Frequency 4649":[
         {
             "title": "Recordings over Freq 4649-5",
@@ -13,6 +20,7 @@
             "link": "https://archive.org/details/websdr_recording_start_2022-03-01T00_57_28Z_4813.0kHz"
         }
     ],
+    
     "Frequency 7933": [
         {
             "title": "New Buran Unit, Russian Communications",
