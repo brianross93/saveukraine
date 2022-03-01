@@ -79,29 +79,33 @@ const App = () => {
                     <Grid
 
                         item
-                        sx={{ mt: 10, minWidth: "80%" }}
+                        sx={{ mt: 10, minWidth: "50%" }}
                     >
                         <Tuners />
+                        <p>Select a radio tuner, and use the numbers below as frequencies.</p><p> Russian Military
+                            Operations have been recorded on channels below, and posted here for archive.</p> 
+                            <p>If you hear any Russian War Chatter, please record and submit it to us.</p>
                     </Grid>
                     <Grid
 
                         item
-                        sx={{ mt: 10, minWidth: "80%" }}
+                        sx={{ mt: 10, minWidth: "50%" }}
                     >
                         <Frequencies />
                     </Grid>
                     <Grid
 
                         item
-                        item
-                        sx={{ mt: 10, minWidth: "80%" }}
+
+                        
+                        sx={{ mt: 10, minWidth: "50%" }}
                     >
                         <Recordings />
                     </Grid>
                     <Grid
 
                         item
-                        sx={{ mt: 10, minWidth: "80%" }}
+                        sx={{ mt: 10, minWidth: "50%" }}
                     >
                         <Submit />
                     </Grid>

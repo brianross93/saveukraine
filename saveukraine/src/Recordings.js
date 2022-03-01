@@ -15,20 +15,21 @@ const Recordings = () => {
     };
     return (
         <section id="recordings">
-            <Paper sx={{ p: 5 }}>
+            <Paper sx={{ p: 4 }}>
                 <Grid
                     container
                     direction="column"
                     justifyContent="center"
                     alignItems="center"
-                    spacing={2}
+                    spacing={3}
                 >
                     <Grid
                         item
 
                         sx={{ 
-                            mb: 2
+                            mb: 9
                          }}
+
                          
 
                     >
