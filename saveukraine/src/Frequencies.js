@@ -9,7 +9,7 @@ const Frequencies = () => {
         { freq: "8131 KHZ", active: false },
         { freq: "9741 KHZ", active: false},
         { freq: "4183 KHZ", active: false},
-        { freq: "5125 KHZ", active: false },
+        { freq: "5125 KHZ", active: true },
         { freq: "4629 KHZ", active: false },
         { freq: "7933 KHZ", active: false},
         { freq: "2737 KHZ", active: false },
