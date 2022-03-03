@@ -1,5 +1,7 @@
 import React from "react";
 import { Grid, Link, Paper, Typography } from "@mui/material";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 const Tuners = () => {
     const tuners = [
@@ -8,6 +10,8 @@ const Tuners = () => {
     ];
 
     return (
+        <>
+        <Navigation />
         <section id="tuners">
             <Paper sx={{ p: 5 }}>
                 <Grid
@@ -46,6 +50,8 @@ const Tuners = () => {
                 </Grid>
             </Paper>
         </section>
+        <Footer />
+        </>
     );
 };
 

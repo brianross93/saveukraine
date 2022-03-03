@@ -1,5 +1,7 @@
 import React from "react";
 import { Grid, List, ListItem, ListItemText, Paper, Typography } from "@mui/material";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 const Frequencies = () => {
     const frequencies = [
@@ -20,6 +22,8 @@ const Frequencies = () => {
     ];
 
     return (
+        <>
+        <Navigation />
         <section id="frequencies">
             <Paper sx={{ p: 5 }}>
                 <Grid
@@ -27,14 +31,15 @@ const Frequencies = () => {
                     direction="column"
                     justifyContent="center"
                     alignItems="center"
-                    spacing={2}
+                    spacing={4}
+                    rowSpacing={2}
                 >
                     <Grid item>
                         <Typography variant="h4">
                             Frequencies
                         </Typography>
                     </Grid>
-                    <Grid item>
+                    <Grid item xs={6}>
                         <Typography variant="h5">
                             Known Russian Military Frequencies
                         </Typography>
@@ -54,6 +59,8 @@ const Frequencies = () => {
                 </Grid>
             </Paper>
         </section>
+        <Footer />
+        </>
     );
 };
 
