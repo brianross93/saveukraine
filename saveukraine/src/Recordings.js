@@ -42,13 +42,7 @@ const Recordings = () => {
                                             <ListItem
                                                 disableGutters
                                                 key={`recording-topic-${i}-${j}`}
-                                                secondaryAction={
-                                                    <IconButton
-                                                        onClick={() => window.open(e.link, "_blank")}
-                                                    >
-                                                        <OpenInNew />
-                                                    </IconButton>
-                                                }
+                                                
                                             >
                                                 <ListItemText
                                                     primary={e.title}
