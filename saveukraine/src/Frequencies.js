@@ -8,7 +8,7 @@ import "./Frequencies.css";
 const Frequencies = () => {
     const frequencies = [
         { freq: "3809 KHZ", active: false },
-        { freq: "5640 KHZ", active: false },
+        { freq: "5640 KHZ", active: true },
         { freq: "7933 KHZ", active: true },
         { freq: "8939 KHZ", active: false },
         { freq: "8090 KHZ", active: false },
