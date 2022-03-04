@@ -78,6 +78,7 @@ const Frequencies = () => {
                                 >
                                     <ListItemText
                                         primary={e.freq}
+                                        secondary={e.active ? "Active" : "Inactive"}
                                     />
                                 </ListItem>
                             )
