@@ -26,7 +26,8 @@ const Submissions = () => {
                         item
 
                         sx={{ 
-                            mb: 9
+                            mb: 2,
+
                          }}
 
                          
@@ -94,5 +95,4 @@ const Submissions = () => {
 
 
 export default Submissions;
-
 

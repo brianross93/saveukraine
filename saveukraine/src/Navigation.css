@@ -1,0 +1,17 @@
+.Nav{
+    height: 75px;
+    background-color: #3a3b3c;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}

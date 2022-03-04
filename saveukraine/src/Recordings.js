@@ -3,40 +3,34 @@ import { Grid, IconButton, List, ListItem, ListItemText, Paper, Typography } fro
 import recordings from "./recordings.json";
 import moment from "moment";
 import { OpenInNew } from "@mui/icons-material";
-
-
-
-
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 
 const Recordings = () => {
     const getRecordingDate = (unix) => {
-        return moment.unix(unix).utcOffset(2).format("MMM Do, YYYY, hh:mm A");
+        return moment.unix(unix).utcOffset(2).format("MMM Do, YYYY, HH:mm A");
     };
+
     return (
+        <>
+        <Navigation />
         <section id="recordings">
-            <Paper sx={{ p: 4 }}>
+            <Paper sx={{ p: 5 }}>
                 <Grid
                     container
                     direction="column"
                     justifyContent="center"
                     alignItems="center"
-                    spacing={3}
+                    spacing={2}
                 >
                     <Grid
                         item
-
-                        sx={{ 
-                            mb: 9
-                         }}
-
-                         
-
+                        sx={{ mb: 2 }}
                     >
                         <Typography variant="h4">
                             Recordings
                         </Typography>
-
                     </Grid>
                     {Object.keys(recordings).map((k, i) => {
                         return (
@@ -58,27 +52,21 @@ const Recordings = () => {
                                             >
                                                 <ListItemText
                                                     primary={e.title}
-                                                    secondary={`${getRecordingDate(e.time)} (UKR time)`}
+                                                    secondary={`${getRecordingDate(e.time)} (local time)`}
                                                 />
                                             </ListItem>
                                         )
                                     })}
                                 </List>
                             </Grid>
-                            
                         );
                     })}
                 </Grid>
             </Paper>
         </section>
+        <Footer />
+        </>
     );
 };
-//
-// export default Recordings;
-
-// Refactoring the above so that the title, time, and link for all json items in recordings.json will display with page styling
-// Creating a react component to do this
-// Code:
-
 
 export default Recordings;

@@ -1,58 +1,19 @@
 import React from "react";
-import { Box, Grid, Link, Typography } from "@mui/material";
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <Box
-            sx={{
-                height: "400px",
-                width: "100%",
-                mt: 10
-            }}
-        >
-            <Box
-                sx={{
-                    backgroundColor: "#005bbb",
-                    height: "50%"
-                }}
-            >
-                <Grid
-                    container
-                    direction="column"
-                    justifyContent="center"
-                    alignItems="center"
-                    sx={{ height: "100%" }}
-                >
-                    <Typography variant="h5" color="secondary" align="center">
-                        For anyone who can translate Russian, please contact us on <Link href="https://twitter.com/CashmanDian" target="_blank" color="secondary">Twitter</Link>
-                    </Typography>
-                    <Typography variant="h5" color="secondary" align="center">
-                        If you want to support us, consider donating to us!
-                    </Typography>
-                    <Typography variant="body1" color="secondary" align="center">
-                        ETH: 0x15A027868f65a2391fab228C900BDc2291Eb6b2c
-                    </Typography>
-                </Grid>
-            </Box>
-            <Box
-                sx={{
-                    backgroundColor: "#ffd500",
-                    height: "50%"
-                }}
-            >
-                <Grid
-                    container
-                    direction="column"
-                    justifyContent="center"
-                    alignItems="center"
-                    sx={{ height: "100%" }}
-                >
-                    <Typography variant="h4" color="primary" align="center">
-                        Слава Україні!
-                    </Typography>
-                </Grid>
-            </Box>
-        </Box>
+        <div className="Footer">
+            <h4>
+                For anyone who can translate Russian, please contact us on <a href="https://twitter.com/CashmanDian" target="_blank">Twitter</a>
+            </h4>
+           <h4>
+                If you want to support us, consider donating to us!
+            </h4>
+            <h4>
+                ETH: 0x15A027868f65a2391fab228C900BDc2291Eb6b2c
+            </h4>
+        </div>
     );
 };
 

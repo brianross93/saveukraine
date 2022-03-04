@@ -1,0 +1,48 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* use russian style font */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family:  */
+}
+.header{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/brianross/Documents/dev/deployukraine/saveukraine/saveukraine/src/images/flag-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    opacity: 0.9;
+}
+.directions{
+    width: 70%;
+    margin-left: 20%;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-size: 42px;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+}
+.header-title {
+    margin: 0;
+    height: 500px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+}
+.header-name{
+    text-align: center;
+    padding-top: 15%;
+    font-size: 48px;
+    margin: 0;
+}
