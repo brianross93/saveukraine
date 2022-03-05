@@ -1,9 +1,16 @@
 {
+    "Frequency 8791":[
+        {
+            "title": "Recordings on 8791: Military Operations",
+            "time": 1646335645,
+            "link": "https://archive.org/details/websdr_recording_start_2022-03-05T07_29_45Z_8791.0kHz"
+        }
+    ],
     "Frequency 4034":[
         {
             "title": "Recordings on 4034",
             "time": 1646335645,
-            "link": "​​https://archive.org/details/websdr_recording_2022-03-02T14_52_42Z_4034.0kHz"
+            "link": "https://archive.org/details/websdr_recording_2022-03-02T14_52_42Z_4034.0kHz"
         }
     ],
     "Frequency 3809":[
