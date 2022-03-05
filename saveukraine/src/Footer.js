@@ -5,13 +5,13 @@ const Footer = () => {
     return (
         <div className="Footer">
             <h4>
-                For anyone who can translate Russian, please contact us on <a href="https://twitter.com/CashmanDian" target="_blank">Twitter</a>
+                For anyone who can translate Russian, please contact us on<a href="https://twitter.com/CashmanDian" target="_blank">Twitter</a>
             </h4>
            <h4>
-                If you want to support us, consider donating to us!
+                If you want to support Ukraine, consider donating to any charity on this list. 
             </h4>
             <h4>
-                ETH: 0x15A027868f65a2391fab228C900BDc2291Eb6b2c
+            <a href="https://www.reddit.com/r/SupportForUkraine/comments/t0nspy/want_to_support_ukraine_heres_a_list_of_charities/" target="_blank">Reddit Charity List</a>
             </h4>
         </div>
     );
