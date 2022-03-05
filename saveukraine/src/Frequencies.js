@@ -25,13 +25,14 @@ import { List } from "@mui/material";
 
 const Frequencies = () => {
     const [frequencies, setFrequencies] = useState([
+        { freq: "8791 KHZ", active: true },
         { freq: "3809 KHZ", active: false },
-        { freq: "5640 KHZ", active: true },
+        { freq: "5640 KHZ", active: false },
         { freq: "7933 KHZ", active: true },
         { freq: "8939 KHZ", active: false },
         { freq: "8090 KHZ", active: false },
-        { freq: "4034 KHZ", active: true },
-        { freq: "3305 KHZ", active: true },
+        { freq: "4034 KHZ", active: false },
+        { freq: "3305 KHZ", active: false },
         { freq: "3310 KHZ", active: false},
         { freq: "3891-5 KHZ", active: true },
         { freq: "2737 KHZ", active: false },
